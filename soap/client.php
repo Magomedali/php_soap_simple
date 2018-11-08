@@ -12,8 +12,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL & ~E_NOTICE);
 
 // создаем объект для отправки на сервер
-phpinfo();
-exit;
+
 
 $client = new SoapClient('http://lk.web-ali.ru/soap/api.wsdl.php');
 
